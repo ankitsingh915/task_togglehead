@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    position: relative;
+    height: 100%;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+.navbar{
+    background-color: #4a8acb;
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    padding: 0rem 1rem;
+}
+
+.navbar ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.logo {
+    font-size: 2rem;
+    color: #ffffff;
+    padding-left: 1rem;
+    
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    background: #fff;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide h3, .swiper-slide p{
+    padding-top: 3rem;
+    padding-left: 10rem;
+  }
+
+  .swiper-slide button{
+    margin-left: 15rem;
+    margin-top: 5rem;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper-wrapper .swiper-slide{
+    background-image: url("https://guardian.ng/wp-content/uploads/2017/11/black-man-running-on-beach-exercise-fitness.jpg");
+    background-size: cover;
+  }
+  
+.swiper-wrapper .swiper-slide{
+    padding-right: 60%;
+    justify-content: flex-start;
+    text-align: left;
+}
+.swiper-slide{
+    min-height: 4rem;
+}
+
+.button1 {
+    height: 3rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.sec1{
+    display: flex;
+}
+.exam_class{
+    display: flex;
+}
+.examcontent{
+    padding: 2rem;
+    margin: 15px;
+}
+.examcontent h1{
+    color:#4a8acb;
+}
+.vertical-line {
+    margin: 10px;
+    border-left: 1px solid rgba(0, 0, 0, 0.2); 
+    height: 140px; 
+}
+.flex{
+    display: flex;
+    gap: 12px;
+}
+
+.fluid{
+    display: flex;
+}
+.cont{
+    display: flex;
+    margin-top: 70px;
+    color:#4a8acb;
+}
+.container-fluid{
+    display: flex;
+    gap: 50px;
+}
+.button2{
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+}
+.content-bottom{
+    display: flex;
+    background-color: #f6f6f6;
+    color:#4a8acb;
+    padding: 40px;
+}
+
+
+#inp{
+    width: 60%;
+    height: 40px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.left-content{
+    width: 50%;
+}
+.right-content img{
+    width: 50%;
+    align-items: center;
+}
+
+.button2{ 
+    width: 30%;
+    height: 40px;
+    background-color:#4a8acb;
+    border-radius: 10px;
+}
+.footer{
+    display: flex;
+    padding: 5rem;
+    justify-content: space-between;
+    color: #f6f6f6;
+    background-color: #4a8acb;
+}
+
+.copy{
+    text-align: center;
+    background-color:#4a8acb;
+    color: #f6f6f6;
+}
+
+.social{
+    text-align: center;
+}
+.icons{
+    font-size: 2rem;
+    padding: 2rem;
+    padding-top: 5rem;
+    color: #ffffff;
+}
+
+.Rights{
+    background-color: #073b6e;
+    height: 2rem;
+}
